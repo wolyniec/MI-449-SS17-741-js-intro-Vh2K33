@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>local informative website saves the day!</title>
+  </head>
+  <body>
+    <p> Have you ever wanted to learn how to beat-box? Well just follow along with the buttons on this helpful web-page and you too can be a passable beat boxer before long!</p>
+    <button id="boots"> boots</button>
+    <button id="and"> and</button>
+    <button id="cats"> cats</button>
+    <button id="bees"> bees</button>
+    <p> The recommended use of the site is to start with "boots", then to quickly move along to "cats", then going back towards the "boots". Once you're really getting a feel for it, feel free to toss in some "bees" and see how you feel!</p>
+    <script type="text/javascript">
+      var bootsplay = document.getElementById("boots")
+      var andplay = document.getElementById("and")
+      var catsplay = document.getElementById("cats")
+      var beesplay = document.getElementById("bees")
+
+      bootsplay.addEventListener('click',function(){
+        console.log('boots')
+      })
+      andplay.addEventListener('click',function(){
+        console.log('and')
+      })
+      catsplay.addEventListener('click',function(){
+        console.log('cats')
+      })
+      beesplay.addEventListener('click',function(){
+        console.log('bees')
+      })
+    </script>
+  </body>
+</html>
