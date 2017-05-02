@@ -3,9 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>local informative website saves the day!</title>
-    <!--
-        DON'T FORGET MAN! YOU'VE ALSO GOT TO ACCOMODATE THE 'mouseenter' EVENT AS WELL AS THE 'click' ONE!
-    -->
   </head>
   <body>
     <!-- OKAY SO DROP IN THE <audio> tags here! -->
@@ -13,25 +10,7 @@
     <button id="boots"> boots</button>
     <button id="and"> and</button>
     <button id="cats"> cats</button>
-    <p> The recommended use of the site is to start with "boots", then to quickly move along to "cats", then going back towards the "boots".</p>
-    <script type="text/javascript">
-      var bootsplay = document.getElementById("boots");
-      var andplay = document.getElementById("and");
-      var catsplay = document.getElementById("cats");
-      var aboots = new Audio('boots.wav');
-      var aand = new Audio('and.wav');
-      var acats = new Audio('cats.wav');
-      //  ALMOST DONE, JUST DROP THE AUDIO PLAY TAGS IN HERE I GUESS?
-      bootsplay.addEventListener('click',function(){
-        // OR MAYBE IT COULD GO HERE? EXPLORE YOUR OPTIONS
-        aboots.play();
-      })
-      andplay.addEventListener('click',function(){
-        aand.play();
-      })
-      catsplay.addEventListener('click',function(){
-        acats.play();
-      })
-    </script>
+    <p> The recommended use of the site is to start with "boots", then to quickly move along to "cats", then going back towards the "boots". When you're more comfortable, try it aloud!</p>
+    <script src="script.js"></script>
   </body>
 </html>
